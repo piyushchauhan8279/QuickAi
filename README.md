@@ -55,3 +55,53 @@ Save your results or publish them to the community.
 Visit your Dashboard to view all past creations or check your plan status.
 
 
+🧾 Installation & Setup (For Developers)
+
+If you want to run this project locally:
+
+1. Clone the repository
+git clone https://github.com/piyushchauhan8279/QuickAi.git
+cd quickai
+
+2. Install dependencies
+npm install
+
+3. Configure environment variables
+Create a .env file in the root directory and add the following keys:
+
+DATABASE_URL=your_neon_database_url
+CLERK_SECRET_KEY=your_clerk_secret_key
+CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+GEMINI_API_KEY=your_gemini_api_key
+
+4. Run the development server
+
+🧑‍💻 For Users
+You can directly try QuickAi live:
+👉 Visit QuickAi :- thequick-ai.vercel.app 
+
+Steps:
+
+Sign up using your email or Google account.
+Try out Free Plan features.
+To unlock Premium tools, click on “Upgrade Plan”.
+Use the test card for payments:
+Explore the dashboard and community section!
+
+🛡️ Security & Data
+
+All user authentication and session handling is managed securely by Clerk.
+Images are uploaded and stored securely using Cloudinary.
+Database and sensitive operations are handled using Neon with encryption and secure API endpoints.
+
+
+❤️ Acknowledgments
+
+Clerk.dev:for secure auth
+Neon.tech:for a reliable PostgreSQL database
+Cloudinary:for media handling
+Gemini AI:for intelligent content generation
+Vercel:for hosting
